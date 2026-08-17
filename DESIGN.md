@@ -8,7 +8,7 @@
 | --- | --- |
 | Status | Approved foundation; consumer migration in progress |
 | Design-system version | 2.0.0 |
-| Brand delivery revision | `brand-v2.0.0`; approved face and full-body inputs retained with checksums |
+| Brand delivery revision | `brand-v2.0.0` geometry and `brand-v2.1.0` app-icon color derivatives; approved face and full-body inputs retained with checksums |
 | Published | 2026-08-17 |
 | Product category | Release control for React Native and Expo |
 | Visual principle | Quiet operational confidence |

@@ -1,5 +1,5 @@
 {
-  "version": "2.0.0",
+  "version": "2.1.0",
   "brand": "Otafox",
   "status": "approved",
   "updated": "2026-08-17",
@@ -176,18 +176,18 @@
       "classification": "preview",
       "canonical": false,
       "format": "SVG",
-      "background": "rounded #09090B tile with transparent outer corners",
-      "fill": "#FAFAFA",
+      "background": "rounded #B0EC9C tile with transparent outer corners",
+      "fill": "#09090B",
       "viewBox": "0 0 1024 1024",
       "dimensions": {
         "width": 1024,
         "height": 1024,
         "unit": "viewBox"
       },
-      "checksumSha256": "7542b45829a83aecbd6be0f131664d8c211d237c162659dd6170f65ace1632f4",
-      "sourceRevision": "brand-v2.0.0",
-      "sourceAsset": "mark/otafox-mark-inverse.svg",
-      "sourceChecksumSha256": "55c40a8111ec43016ccefcd161fdf688a0e474b7dc8d65744da756e045642e3c",
+      "checksumSha256": "ac308b27d0404169a16e3d38b618dc8aec7ce9686c4983ec2e2f115f666b2976",
+      "sourceRevision": "brand-v2.1.0",
+      "sourceAsset": "mark/otafox-mark.svg",
+      "sourceChecksumSha256": "859280daed0ca2b4fc19fc054efc458c1ace99d24c861163a1580b802216ebee",
       "intendedConsumers": [
         "design-catalog",
         "release-review"
@@ -201,18 +201,18 @@
       "classification": "derivative",
       "canonical": false,
       "format": "SVG",
-      "background": "#09090B full bleed",
-      "fill": "#FAFAFA",
+      "background": "#B0EC9C full bleed",
+      "fill": "#09090B",
       "viewBox": "0 0 1024 1024",
       "dimensions": {
         "width": 1024,
         "height": 1024,
         "unit": "viewBox"
       },
-      "checksumSha256": "a9bcf6ceaf515a6865e23135d6489e3d3120c5dac49e7d2628e49db22c07c890",
-      "sourceRevision": "brand-v2.0.0",
-      "sourceAsset": "mark/otafox-mark-inverse.svg",
-      "sourceChecksumSha256": "55c40a8111ec43016ccefcd161fdf688a0e474b7dc8d65744da756e045642e3c",
+      "checksumSha256": "68a595cbc505ee2be089852d4e5a3183c7c3820417004d401c60fd878d9d8fc7",
+      "sourceRevision": "brand-v2.1.0",
+      "sourceAsset": "mark/otafox-mark.svg",
+      "sourceChecksumSha256": "859280daed0ca2b4fc19fc054efc458c1ace99d24c861163a1580b802216ebee",
       "intendedConsumers": [
         "mobile-ios"
       ],
@@ -225,18 +225,18 @@
       "classification": "derivative",
       "canonical": false,
       "format": "SVG",
-      "background": "#09090B full bleed",
-      "fill": "#09090B",
+      "background": "#B0EC9C full bleed",
+      "fill": "#B0EC9C",
       "viewBox": "0 0 108 108",
       "dimensions": {
         "width": 108,
         "height": 108,
         "unit": "viewBox"
       },
-      "checksumSha256": "032b4c2242dfc5a4a0f4a1fc189a28c60804cead2f834e02ee921a141c72b49c",
-      "sourceRevision": "brand-v2.0.0",
+      "checksumSha256": "c26ba81cb00c746b4b7ecfd0149ec88cab36ebfd47665d27d6a3a9ef9dd0e05c",
+      "sourceRevision": "brand-v2.1.0",
       "sourceAsset": "../tokens/primitives.json",
-      "sourceChecksumSha256": "1e0af3b2ea02307e432ab3408e28d3fa61b2361c54472919c3d1d6e8db8a6f85",
+      "sourceChecksumSha256": "ce7aa36c1d57de8691d341e5860dfee6c59e659f6eba54663a881f664f40d8f0",
       "intendedConsumers": [
         "mobile-android-adaptive-icon"
       ],
@@ -250,17 +250,17 @@
       "canonical": false,
       "format": "SVG",
       "background": "transparent",
-      "fill": "#FAFAFA",
+      "fill": "#09090B",
       "viewBox": "0 0 108 108",
       "dimensions": {
         "width": 108,
         "height": 108,
         "unit": "viewBox"
       },
-      "checksumSha256": "8bb57cbeeda61d0b8ad6d1b4ce44a5c3fb6d1762e93934e0053ea48080aa5d14",
-      "sourceRevision": "brand-v2.0.0",
-      "sourceAsset": "mark/otafox-mark-inverse.svg",
-      "sourceChecksumSha256": "55c40a8111ec43016ccefcd161fdf688a0e474b7dc8d65744da756e045642e3c",
+      "checksumSha256": "9f1bf8a4520f2e2e3c6fa3f5a60b4f7a35bf3101b4bcfc13a933f728c668a8d9",
+      "sourceRevision": "brand-v2.1.0",
+      "sourceAsset": "mark/otafox-mark.svg",
+      "sourceChecksumSha256": "859280daed0ca2b4fc19fc054efc458c1ace99d24c861163a1580b802216ebee",
       "intendedConsumers": [
         "mobile-android-adaptive-icon"
       ],
@@ -282,7 +282,7 @@
         "unit": "viewBox"
       },
       "checksumSha256": "df2e6201681c39a52a34b537d021033cb7295c4d3457729644918b274d63c9f3",
-      "sourceRevision": "brand-v2.0.0",
+      "sourceRevision": "brand-v2.1.0",
       "sourceAsset": "mark/otafox-mark.svg",
       "sourceChecksumSha256": "859280daed0ca2b4fc19fc054efc458c1ace99d24c861163a1580b802216ebee",
       "intendedConsumers": [

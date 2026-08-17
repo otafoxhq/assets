@@ -42,13 +42,13 @@ four units of protected right-side space. It has no font or network dependency.
 
 - `app-icon/source.svg` is a rounded preview for the design catalog and release
   review. It is not an iOS or Android submission source.
-- `app-icon/ios-source.svg` is an opaque, full-bleed 1024 × 1024 square with no
-  authored corner radius. The inverse mark occupies the central 576 × 576 safe
+- `app-icon/ios-source.svg` is an opaque, full-bleed primary-green 1024 × 1024
+  square with no authored corner radius. The dark mark occupies the central 576 × 576 safe
   region; iOS applies the platform mask.
-- `app-icon/android-background.svg` is the full-bleed graphite 108 × 108
+- `app-icon/android-background.svg` is the full-bleed primary-green 108 × 108
   adaptive-icon background layer.
 - `app-icon/android-foreground.svg` is a transparent 108 × 108 layer with the
-  inverse mark centered inside Android's 66 × 66 safe region.
+  dark mark centered inside Android's 66 × 66 safe region.
 - `app-icon/android-monochrome.svg` uses the same safe geometry as a one-color
   layer. Android supplies the themed icon color.
 - `favicon/source.svg` preserves the approved compact face paths on their
@@ -58,6 +58,10 @@ four units of protected right-side space. It has no font or network dependency.
 Every preview or derivative records its source asset, source checksum, revision,
 safe zone, consumers, and own checksum in `manifest.json`. Generated PNG, ICO,
 and adaptive-icon outputs remain consumer-owned derivatives.
+
+App-icon color revision `brand-v2.1.0` pairs `#B0EC9C` backgrounds with the
+`#09090B` mark. The monochrome Android layer remains a one-color mask whose
+display color is supplied by Android. This revision does not alter mark paths.
 
 ## Clear space and minimum size
 

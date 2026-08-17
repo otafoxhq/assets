@@ -27,15 +27,16 @@ claim.
 ## Platform generation sources
 
 These sources are reproducible preview or delivery derivatives of the canonical
-geometry. Their delivery revision is `brand-v2.0.0`; they are not additional
+geometry. App-icon delivery uses color revision `brand-v2.1.0`; the favicon
+continues to use the monochrome `brand-v2.0.0` geometry revision. They are not additional
 canonical marks.
 
 | Path | Classification | View box | Platform rule | SHA-256 |
 | --- | --- | --- | --- | --- |
-| `brand/app-icon/source.svg` | Preview | `0 0 1024 1024` | Rounded catalog preview; never submit to a store | `7542b45829a83aecbd6be0f131664d8c211d237c162659dd6170f65ace1632f4` |
-| `brand/app-icon/ios-source.svg` | Derivative | `0 0 1024 1024` | Full-bleed opaque square; iOS owns the corner mask | `a9bcf6ceaf515a6865e23135d6489e3d3120c5dac49e7d2628e49db22c07c890` |
-| `brand/app-icon/android-background.svg` | Derivative | `0 0 108 108` | Full-bleed adaptive background | `032b4c2242dfc5a4a0f4a1fc189a28c60804cead2f834e02ee921a141c72b49c` |
-| `brand/app-icon/android-foreground.svg` | Derivative | `0 0 108 108` | Transparent face in centered 66 × 66 safe region | `8bb57cbeeda61d0b8ad6d1b4ce44a5c3fb6d1762e93934e0053ea48080aa5d14` |
+| `brand/app-icon/source.svg` | Preview | `0 0 1024 1024` | Rounded primary-green catalog preview; never submit to a store | `ac308b27d0404169a16e3d38b618dc8aec7ce9686c4983ec2e2f115f666b2976` |
+| `brand/app-icon/ios-source.svg` | Derivative | `0 0 1024 1024` | Full-bleed primary-green square; iOS owns the corner mask | `68a595cbc505ee2be089852d4e5a3183c7c3820417004d401c60fd878d9d8fc7` |
+| `brand/app-icon/android-background.svg` | Derivative | `0 0 108 108` | Full-bleed primary-green adaptive background | `c26ba81cb00c746b4b7ecfd0149ec88cab36ebfd47665d27d6a3a9ef9dd0e05c` |
+| `brand/app-icon/android-foreground.svg` | Derivative | `0 0 108 108` | Transparent dark face in centered 66 × 66 safe region | `9f1bf8a4520f2e2e3c6fa3f5a60b4f7a35bf3101b4bcfc13a933f728c668a8d9` |
 | `brand/app-icon/android-monochrome.svg` | Derivative | `0 0 108 108` | One-color themed-icon layer in the same safe region | `df2e6201681c39a52a34b537d021033cb7295c4d3457729644918b274d63c9f3` |
 | `brand/favicon/source.svg` | Derivative | `0 0 1254 1254` | Exact approved face paths for browser icon generation | `d8ca06a6d3f53a70c095674fa8b2388fb540f00dbdd8c7839f3372fbc7e5686a` |
 
