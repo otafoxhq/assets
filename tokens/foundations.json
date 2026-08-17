@@ -1,0 +1,896 @@
+{
+  "$schema": "./schema.json",
+  "version": "1.1.0",
+  "status": "approved",
+  "updated": "2026-08-16",
+  "source": "../DESIGN.md",
+  "tokens": {
+    "typography": {
+      "family": {
+        "display": {
+          "value": "Geist",
+          "type": "fontFamily",
+          "description": "Headlines and product display typography."
+        },
+        "body": {
+          "value": "Inter",
+          "type": "fontFamily",
+          "description": "Reading, navigation, and controls."
+        },
+        "technical": {
+          "value": "Commit Mono",
+          "type": "fontFamily",
+          "description": "Code, identifiers, versions, and timestamps."
+        }
+      },
+      "caption": {
+        "fontFamily": {
+          "value": "Inter",
+          "type": "fontFamily",
+          "description": "Caption font family."
+        },
+        "fontSize": {
+          "value": 12,
+          "type": "dimension",
+          "description": "Caption font size."
+        },
+        "lineHeight": {
+          "value": 16,
+          "type": "dimension",
+          "description": "Caption line height."
+        },
+        "fontWeight": {
+          "value": 400,
+          "type": "fontWeight",
+          "description": "Caption font weight."
+        },
+        "letterSpacing": {
+          "value": 0.01,
+          "type": "number",
+          "description": "Caption tracking in em units."
+        }
+      },
+      "label": {
+        "fontFamily": {
+          "value": "Inter",
+          "type": "fontFamily",
+          "description": "Control label font family."
+        },
+        "fontSize": {
+          "value": 14,
+          "type": "dimension",
+          "description": "Control label font size."
+        },
+        "lineHeight": {
+          "value": 20,
+          "type": "dimension",
+          "description": "Control label line height."
+        },
+        "fontWeight": {
+          "value": 500,
+          "type": "fontWeight",
+          "description": "Control label font weight."
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "number",
+          "description": "Control label tracking in em units."
+        }
+      },
+      "body": {
+        "fontFamily": {
+          "value": "Inter",
+          "type": "fontFamily",
+          "description": "Body font family."
+        },
+        "fontSize": {
+          "value": 16,
+          "type": "dimension",
+          "description": "Default reading size."
+        },
+        "lineHeight": {
+          "value": 24,
+          "type": "dimension",
+          "description": "Default reading line height."
+        },
+        "fontWeight": {
+          "value": 400,
+          "type": "fontWeight",
+          "description": "Default reading weight."
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "number",
+          "description": "Body tracking in em units."
+        }
+      },
+      "technical": {
+        "fontFamily": {
+          "value": "Commit Mono",
+          "type": "fontFamily",
+          "description": "Technical data font family."
+        },
+        "fontSize": {
+          "value": 14,
+          "type": "dimension",
+          "description": "Technical data font size."
+        },
+        "lineHeight": {
+          "value": 20,
+          "type": "dimension",
+          "description": "Technical data line height."
+        },
+        "fontWeight": {
+          "value": 400,
+          "type": "fontWeight",
+          "description": "Technical data font weight."
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "number",
+          "description": "Technical data tracking in em units."
+        }
+      },
+      "headingSm": {
+        "fontFamily": {
+          "value": "Geist",
+          "type": "fontFamily",
+          "description": "Small heading font family."
+        },
+        "fontSize": {
+          "value": 20,
+          "type": "dimension",
+          "description": "Small heading font size."
+        },
+        "lineHeight": {
+          "value": 28,
+          "type": "dimension",
+          "description": "Small heading line height."
+        },
+        "fontWeight": {
+          "value": 600,
+          "type": "fontWeight",
+          "description": "Small heading font weight."
+        },
+        "letterSpacing": {
+          "value": -0.01,
+          "type": "number",
+          "description": "Small heading tracking in em units."
+        }
+      },
+      "headingMd": {
+        "fontFamily": {
+          "value": "Geist",
+          "type": "fontFamily",
+          "description": "Medium heading font family."
+        },
+        "fontSize": {
+          "value": 24,
+          "type": "dimension",
+          "description": "Medium heading font size."
+        },
+        "lineHeight": {
+          "value": 32,
+          "type": "dimension",
+          "description": "Medium heading line height."
+        },
+        "fontWeight": {
+          "value": 600,
+          "type": "fontWeight",
+          "description": "Medium heading font weight."
+        },
+        "letterSpacing": {
+          "value": -0.01,
+          "type": "number",
+          "description": "Medium heading tracking in em units."
+        }
+      },
+      "headingLg": {
+        "fontFamily": {
+          "value": "Geist",
+          "type": "fontFamily",
+          "description": "Large heading font family."
+        },
+        "fontSize": {
+          "value": 32,
+          "type": "dimension",
+          "description": "Large heading font size."
+        },
+        "lineHeight": {
+          "value": 40,
+          "type": "dimension",
+          "description": "Large heading line height."
+        },
+        "fontWeight": {
+          "value": 600,
+          "type": "fontWeight",
+          "description": "Large heading font weight."
+        },
+        "letterSpacing": {
+          "value": -0.02,
+          "type": "number",
+          "description": "Large heading tracking in em units."
+        }
+      },
+      "headingXl": {
+        "fontFamily": {
+          "value": "Geist",
+          "type": "fontFamily",
+          "description": "Feature heading font family."
+        },
+        "fontSize": {
+          "value": 48,
+          "type": "dimension",
+          "description": "Feature heading font size."
+        },
+        "lineHeight": {
+          "value": 56,
+          "type": "dimension",
+          "description": "Feature heading line height."
+        },
+        "fontWeight": {
+          "value": 600,
+          "type": "fontWeight",
+          "description": "Feature heading font weight."
+        },
+        "letterSpacing": {
+          "value": -0.02,
+          "type": "number",
+          "description": "Feature heading tracking in em units."
+        }
+      },
+      "display": {
+        "fontFamily": {
+          "value": "Geist",
+          "type": "fontFamily",
+          "description": "Editorial display font family."
+        },
+        "fontSize": {
+          "value": 64,
+          "type": "dimension",
+          "description": "Editorial display font size."
+        },
+        "lineHeight": {
+          "value": 68,
+          "type": "dimension",
+          "description": "Editorial display line height."
+        },
+        "fontWeight": {
+          "value": 600,
+          "type": "fontWeight",
+          "description": "Editorial display font weight."
+        },
+        "letterSpacing": {
+          "value": -0.03,
+          "type": "number",
+          "description": "Editorial display tracking in em units."
+        }
+      },
+      "secondary": {
+        "fontFamily": {
+          "value": "Inter",
+          "type": "fontFamily",
+          "description": "Secondary product metadata font family."
+        },
+        "fontSize": {
+          "value": 13,
+          "type": "dimension",
+          "description": "Secondary product metadata font size."
+        },
+        "lineHeight": {
+          "value": 18,
+          "type": "dimension",
+          "description": "Secondary product metadata line height."
+        },
+        "fontWeight": {
+          "value": 400,
+          "type": "fontWeight",
+          "description": "Secondary product metadata font weight."
+        },
+        "letterSpacing": {
+          "value": 0,
+          "type": "number",
+          "description": "Secondary product metadata tracking in em units."
+        }
+      },
+      "consolePanel": {
+        "fontFamily": {
+          "value": "Geist",
+          "type": "fontFamily",
+          "description": "Console panel heading font family."
+        },
+        "fontSize": {
+          "value": 20,
+          "type": "dimension",
+          "description": "Console panel heading font size."
+        },
+        "lineHeight": {
+          "value": 28,
+          "type": "dimension",
+          "description": "Console panel heading line height."
+        },
+        "fontWeight": {
+          "value": 600,
+          "type": "fontWeight",
+          "description": "Console panel heading font weight."
+        },
+        "letterSpacing": {
+          "value": -0.01,
+          "type": "number",
+          "description": "Console panel heading tracking in em units."
+        }
+      },
+      "consolePage": {
+        "fontFamily": {
+          "value": "Geist",
+          "type": "fontFamily",
+          "description": "Console page heading font family."
+        },
+        "fontSize": {
+          "value": 28,
+          "type": "dimension",
+          "description": "Console page heading font size."
+        },
+        "lineHeight": {
+          "value": 36,
+          "type": "dimension",
+          "description": "Console page heading line height."
+        },
+        "fontWeight": {
+          "value": 600,
+          "type": "fontWeight",
+          "description": "Console page heading font weight."
+        },
+        "letterSpacing": {
+          "value": -0.02,
+          "type": "number",
+          "description": "Console page heading tracking in em units."
+        }
+      },
+      "marketingSection": {
+        "fontFamily": {
+          "value": "Geist",
+          "type": "fontFamily",
+          "description": "Marketing section heading font family."
+        },
+        "fontSize": {
+          "value": 56,
+          "type": "dimension",
+          "description": "Marketing section heading font size."
+        },
+        "lineHeight": {
+          "value": 60,
+          "type": "dimension",
+          "description": "Marketing section heading line height."
+        },
+        "fontWeight": {
+          "value": 600,
+          "type": "fontWeight",
+          "description": "Marketing section heading font weight."
+        },
+        "letterSpacing": {
+          "value": -0.04,
+          "type": "number",
+          "description": "Marketing section heading tracking in em units."
+        }
+      },
+      "marketingDisplay": {
+        "fontFamily": {
+          "value": "Geist",
+          "type": "fontFamily",
+          "description": "Marketing hero display font family."
+        },
+        "fontSize": {
+          "value": 88,
+          "type": "dimension",
+          "description": "Marketing hero display font size."
+        },
+        "lineHeight": {
+          "value": 84,
+          "type": "dimension",
+          "description": "Marketing hero display line height."
+        },
+        "fontWeight": {
+          "value": 600,
+          "type": "fontWeight",
+          "description": "Marketing hero display font weight."
+        },
+        "letterSpacing": {
+          "value": -0.06,
+          "type": "number",
+          "description": "Marketing hero display tracking in em units."
+        }
+      }
+    },
+    "spacing": {
+      "inline": {
+        "value": 8,
+        "type": "dimension",
+        "description": "Default gap between related inline elements."
+      },
+      "stackTight": {
+        "value": 8,
+        "type": "dimension",
+        "description": "Tight vertical stack gap."
+      },
+      "stack": {
+        "value": 12,
+        "type": "dimension",
+        "description": "Default component stack gap."
+      },
+      "insetCompact": {
+        "value": 12,
+        "type": "dimension",
+        "description": "Compact component inset."
+      },
+      "inset": {
+        "value": 16,
+        "type": "dimension",
+        "description": "Default component inset."
+      },
+      "insetComfortable": {
+        "value": 24,
+        "type": "dimension",
+        "description": "Comfortable panel inset."
+      },
+      "sectionCompact": {
+        "value": 40,
+        "type": "dimension",
+        "description": "Compact section separation."
+      },
+      "section": {
+        "value": 48,
+        "type": "dimension",
+        "description": "Default section separation."
+      },
+      "sectionLarge": {
+        "value": 64,
+        "type": "dimension",
+        "description": "Large section separation."
+      }
+    },
+    "density": {
+      "comfortable": {
+        "rowHeight": {
+          "value": 48,
+          "type": "dimension",
+          "description": "Comfortable product row height."
+        },
+        "cellPaddingVertical": {
+          "value": 12,
+          "type": "dimension",
+          "description": "Comfortable vertical cell padding."
+        },
+        "cellPaddingHorizontal": {
+          "value": 16,
+          "type": "dimension",
+          "description": "Comfortable horizontal cell padding."
+        },
+        "gap": {
+          "value": 12,
+          "type": "dimension",
+          "description": "Comfortable inline product gap."
+        }
+      },
+      "compact": {
+        "rowHeight": {
+          "value": 40,
+          "type": "dimension",
+          "description": "Compact non-touch row height."
+        },
+        "cellPaddingVertical": {
+          "value": 8,
+          "type": "dimension",
+          "description": "Compact vertical cell padding."
+        },
+        "cellPaddingHorizontal": {
+          "value": 12,
+          "type": "dimension",
+          "description": "Compact horizontal cell padding."
+        },
+        "gap": {
+          "value": 8,
+          "type": "dimension",
+          "description": "Compact inline product gap."
+        }
+      },
+      "dense": {
+        "rowHeight": {
+          "value": 36,
+          "type": "dimension",
+          "description": "Dense read-only data row height; interactive targets remain at least 44."
+        },
+        "cellPaddingVertical": {
+          "value": 6,
+          "type": "dimension",
+          "description": "Dense read-only vertical cell padding."
+        },
+        "cellPaddingHorizontal": {
+          "value": 12,
+          "type": "dimension",
+          "description": "Dense read-only horizontal cell padding."
+        },
+        "gap": {
+          "value": 8,
+          "type": "dimension",
+          "description": "Dense inline data gap."
+        }
+      },
+      "console": {
+        "rowHeight": {
+          "value": 52,
+          "type": "dimension",
+          "description": "Default actionable Console row height."
+        },
+        "cellPaddingVertical": {
+          "value": 14,
+          "type": "dimension",
+          "description": "Default vertical padding for actionable Console rows."
+        },
+        "cellPaddingHorizontal": {
+          "value": 16,
+          "type": "dimension",
+          "description": "Default horizontal padding for actionable Console rows."
+        },
+        "gap": {
+          "value": 12,
+          "type": "dimension",
+          "description": "Default gap for actionable Console rows."
+        }
+      }
+    },
+    "radius": {
+      "control": {
+        "value": 8,
+        "type": "dimension",
+        "description": "Default input and button radius."
+      },
+      "panel": {
+        "value": 12,
+        "type": "dimension",
+        "description": "Default panel radius."
+      },
+      "feature": {
+        "value": 16,
+        "type": "dimension",
+        "description": "Large feature surface radius."
+      },
+      "pill": {
+        "value": 999,
+        "type": "dimension",
+        "description": "Badge and pill radius."
+      }
+    },
+    "border": {
+      "width": {
+        "default": {
+          "value": 1,
+          "type": "dimension",
+          "description": "Default component border width."
+        },
+        "focus": {
+          "value": 2,
+          "type": "dimension",
+          "description": "Visible focus ring width."
+        }
+      }
+    },
+    "focus": {
+      "ringWidth": {
+        "value": 2,
+        "type": "dimension",
+        "description": "Visible keyboard and assistive focus ring width."
+      },
+      "ringOffset": {
+        "value": 2,
+        "type": "dimension",
+        "description": "Space between focused control and ring."
+      }
+    },
+    "opacity": {
+      "disabled": {
+        "value": 0.48,
+        "type": "number",
+        "description": "Disabled content opacity paired with unavailable behavior."
+      },
+      "muted": {
+        "value": 0.64,
+        "type": "number",
+        "description": "Decorative subordinate opacity."
+      }
+    },
+    "motion": {
+      "fast": {
+        "duration": {
+          "value": 120,
+          "type": "duration",
+          "description": "Micro-interaction duration in milliseconds."
+        },
+        "easing": {
+          "value": [
+            0.2,
+            0,
+            0,
+            1
+          ],
+          "type": "cubicBezier",
+          "description": "Micro-interaction easing."
+        }
+      },
+      "standard": {
+        "duration": {
+          "value": 180,
+          "type": "duration",
+          "description": "Default state-transition duration in milliseconds."
+        },
+        "easing": {
+          "value": [
+            0.2,
+            0,
+            0,
+            1
+          ],
+          "type": "cubicBezier",
+          "description": "Default state-transition easing."
+        }
+      },
+      "enter": {
+        "duration": {
+          "value": 280,
+          "type": "duration",
+          "description": "Short entrance duration in milliseconds."
+        },
+        "easing": {
+          "value": [
+            0.16,
+            1,
+            0.3,
+            1
+          ],
+          "type": "cubicBezier",
+          "description": "Short entrance easing."
+        }
+      },
+      "exit": {
+        "duration": {
+          "value": 180,
+          "type": "duration",
+          "description": "Short exit duration in milliseconds."
+        },
+        "easing": {
+          "value": [
+            0.4,
+            0,
+            1,
+            1
+          ],
+          "type": "cubicBezier",
+          "description": "Short exit easing."
+        }
+      },
+      "reduced": {
+        "duration": {
+          "value": 0,
+          "type": "duration",
+          "description": "Required duration when reduced motion is requested."
+        },
+        "easing": {
+          "value": [
+            0,
+            0,
+            1,
+            1
+          ],
+          "type": "cubicBezier",
+          "description": "Non-animated reduced-motion timing."
+        }
+      }
+    },
+    "size": {
+      "touch": {
+        "minimum": {
+          "value": 44,
+          "type": "dimension",
+          "description": "Minimum interactive target on web and native."
+        },
+        "comfortable": {
+          "value": 48,
+          "type": "dimension",
+          "description": "Preferred native interactive target."
+        }
+      },
+      "icon": {
+        "sm": {
+          "value": 16,
+          "type": "dimension",
+          "description": "Compact icon size."
+        },
+        "md": {
+          "value": 20,
+          "type": "dimension",
+          "description": "Default icon size."
+        },
+        "lg": {
+          "value": 24,
+          "type": "dimension",
+          "description": "Prominent icon size."
+        },
+        "xl": {
+          "value": 32,
+          "type": "dimension",
+          "description": "Feature icon size."
+        }
+      }
+    },
+    "layout": {
+      "width": {
+        "compact": {
+          "value": 640,
+          "type": "dimension",
+          "description": "Focused form and reading width."
+        },
+        "content": {
+          "value": 960,
+          "type": "dimension",
+          "description": "Default content width."
+        },
+        "wide": {
+          "value": 1200,
+          "type": "dimension",
+          "description": "Wide dashboard and marketing width."
+        }
+      },
+      "gutter": {
+        "compact": {
+          "value": 16,
+          "type": "dimension",
+          "description": "Small-screen gutter."
+        },
+        "default": {
+          "value": 24,
+          "type": "dimension",
+          "description": "Default content gutter."
+        },
+        "wide": {
+          "value": 32,
+          "type": "dimension",
+          "description": "Wide-screen content gutter."
+        }
+      },
+      "breakpoint": {
+        "sm": {
+          "value": 640,
+          "type": "dimension",
+          "description": "Small responsive breakpoint."
+        },
+        "md": {
+          "value": 768,
+          "type": "dimension",
+          "description": "Medium responsive breakpoint."
+        },
+        "lg": {
+          "value": 1024,
+          "type": "dimension",
+          "description": "Large responsive breakpoint."
+        },
+        "xl": {
+          "value": 1280,
+          "type": "dimension",
+          "description": "Extra-large responsive breakpoint."
+        },
+        "2xl": {
+          "value": 1536,
+          "type": "dimension",
+          "description": "Maximum responsive breakpoint."
+        }
+      },
+      "grid": {
+        "compact": {
+          "columns": {
+            "value": 4,
+            "type": "number",
+            "description": "Compact grid column count."
+          },
+          "gap": {
+            "value": 16,
+            "type": "dimension",
+            "description": "Compact grid gap."
+          },
+          "gutter": {
+            "value": 16,
+            "type": "dimension",
+            "description": "Compact grid outer gutter."
+          }
+        },
+        "medium": {
+          "columns": {
+            "value": 8,
+            "type": "number",
+            "description": "Medium grid column count."
+          },
+          "gap": {
+            "value": 24,
+            "type": "dimension",
+            "description": "Medium grid gap."
+          },
+          "gutter": {
+            "value": 24,
+            "type": "dimension",
+            "description": "Medium grid outer gutter."
+          }
+        },
+        "wide": {
+          "columns": {
+            "value": 12,
+            "type": "number",
+            "description": "Wide grid column count."
+          },
+          "gap": {
+            "value": 32,
+            "type": "dimension",
+            "description": "Wide grid gap."
+          },
+          "gutter": {
+            "value": 32,
+            "type": "dimension",
+            "description": "Wide grid outer gutter."
+          }
+        }
+      }
+    },
+    "elevation": {
+      "none": {
+        "value": 0,
+        "type": "number",
+        "description": "Flush surface elevation."
+      },
+      "low": {
+        "value": 1,
+        "type": "number",
+        "description": "Subtle raised control elevation."
+      },
+      "medium": {
+        "value": 3,
+        "type": "number",
+        "description": "Popover and floating panel elevation."
+      },
+      "high": {
+        "value": 8,
+        "type": "number",
+        "description": "Modal elevation."
+      }
+    },
+    "zIndex": {
+      "base": {
+        "value": 0,
+        "type": "number",
+        "description": "Default flow layer."
+      },
+      "sticky": {
+        "value": 100,
+        "type": "number",
+        "description": "Sticky navigation layer."
+      },
+      "popover": {
+        "value": 300,
+        "type": "number",
+        "description": "Popover and menu layer."
+      },
+      "overlay": {
+        "value": 400,
+        "type": "number",
+        "description": "Scrim layer."
+      },
+      "modal": {
+        "value": 500,
+        "type": "number",
+        "description": "Modal content layer."
+      },
+      "toast": {
+        "value": 600,
+        "type": "number",
+        "description": "Transient notification layer."
+      }
+    }
+  }
+}

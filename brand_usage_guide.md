@@ -1,66 +1,74 @@
 # Brand Usage Guide
 
-> Define consistent, accessible use of the verified Otafox raster marks.
+> Define consistent, accessible use of the authored Otafox identity while
+> preserving the boundary around legacy raster files.
 
-## Choosing an asset
+## Choosing a canonical asset
 
-- Use the full `logo` when the brand must be identified without adjacent text.
-- Use the full-body fox for larger square artwork where the body remains legible.
-- Use the face mark for favicons, compact navigation, avatars, and controls.
-- Use the `-w` file on light surfaces and the unsuffixed file on dark surfaces.
-- Do not remove the opaque background from these files by thresholding or
-  automated color removal. A transparent or vector variant requires a verified
-  source asset.
+- Use `brand/lockup/otafox-lockup.svg` when the brand must be identified without
+  adjacent visible text on a light surface.
+- Use `brand/lockup/otafox-lockup-inverse.svg` for the same role on a dark
+  surface.
+- Use the corresponding compact face mark for app-icon composition, compact
+  navigation, avatars, and controls.
+- Use `brand/editorial/otafox-body.svg` or its inverse only for a large closing
+  brand moment, such as the section immediately before the marketing footer.
+- A wordmark is the authored letterform geometry inside the lockup. Do not
+  recreate it with a font. In product navigation, live `Otafox` text beside the
+  compact mark is an accessible, responsive alternative.
+- Use `brand/app-icon/ios-source.svg` for iOS generation and the three named
+  Android layers for adaptive and themed icons. `brand/app-icon/source.svg` is
+  a rounded preview only.
+- Use `brand/favicon/source.svg` for browser outputs. It preserves the approved
+  compact face paths; output padding is allowed, path editing is not.
 
 ## Sizing and clear space
 
-Preserve the original 1:1 canvas and aspect ratio. Do not crop the wordmark or
-fox within the source canvas. Because no approved vector geometry or brand grid
-exists, this guide does not claim a legal clear-space formula.
+Preserve every asset's view box and aspect ratio. The clear-space unit is one
+quarter of the rendered mark width; keep at least one unit free on every side.
 
-For product use, keep empty surrounding space at least equal to one quarter of
-the rendered fox-face width. Treat these as conservative minimum rendered
-sizes for the current raster files:
+- Compact mark minimum: 16 × 16 pixels.
+- Horizontal lockup minimum: 96 pixels wide.
 
-- face mark: 24 × 24 CSS pixels;
-- full-body mark: 64 × 64 CSS pixels;
-- full logo canvas: 160 × 160 CSS pixels.
+The lockup uses a `228 × 64` view box (57:16, or 3.5625:1). Visible mark ink
+ends at x=60 and wordmark ink begins at x=77, so the measured optical gap is 17
+units. The composition aligns around the y=32 centerline and retains four units
+of right-side optical space.
 
-If the mark is not recognizable at the required size, move to the simpler face
-mark rather than sharpening, redrawing, or cropping the full-body artwork.
+When the lockup is too small, use the mark beside live visible `Otafox` text.
+Do not sharpen, simplify, redraw, or crop the master.
 
 ## Forbidden transformations
 
-Do not stretch, skew, rotate, outline, recolor, add gradients, add shadows,
-place text over the mark, rearrange the fox and wordmark, or combine the mark
-with another logo. Do not use a white-background asset on a dark tile or the
-black-background asset on a light tile unless the intentional square tile is
-part of the composition.
+Do not stretch, skew, rotate, outline, recolor outside the approved pair, add
+gradients, add shadows, place text over the mark, rearrange the fox and
+wordmark, or combine the mark with another logo. Do not threshold-remove the
+background of a legacy raster, auto-trace it, or present a trace as an authored
+master.
 
 ## Accessibility
 
-- A linked logo without adjacent visible brand text uses `alt="Otafox"`.
-- A mark beside visible “Otafox” text is decorative and uses `alt=""`.
+- A linked lockup without adjacent visible brand text has the accessible name
+  `Otafox`.
+- A mark beside visible `Otafox` text is decorative and is hidden from the
+  accessibility tree.
 - Decorative background artwork uses an empty alternative and is excluded
   from the accessibility tree.
 - Never use only the light/dark variant to communicate application state.
 
 ## Downstream ownership
 
-The app, website, documentation portal, GitHub profile, and package READMEs may
-copy optimized derivatives because they are independently built repositories.
-Each consumer owns its output size and format, keeps the correct surface pair,
-and records this repository path as the source. A copied derivative must not be
-edited and promoted as a new master.
+The app, website, documentation portal, mobile app, GitHub profile, and package
+READMEs may copy versioned derivatives because they are independently built
+repositories. Each consumer owns its output size and format, keeps the correct
+surface pair, and records this repository path as the source. A copied
+derivative must not be edited and promoted as a new master.
 
-## Open brand decisions
+## Legacy raster boundary
 
-The following require a future design or legal decision and are not inferred
-from the PNG files:
-
-- original vector and editable-source provenance;
-- trademark ownership and legal master designation;
-- a measured clear-space grid and approved small-size optical corrections;
-- official color values beyond the current monochrome raster appearance;
-- social, print, animation, and co-branding rules.
-
+The six PNG files under `logo/`, `full-body-favicon/`, and
+`small-favicon/` are preserved for compatibility. They retain their opaque
+backgrounds and earlier minimum-size guidance. New identity work begins with
+the transparent masters in `brand/`; new browser icons begin exclusively with
+`brand/favicon/source.svg`. See [`brand/README.md`](brand/README.md) for
+platform-container and editorial guidance.

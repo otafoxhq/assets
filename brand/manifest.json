@@ -1,0 +1,442 @@
+{
+  "version": "2.0.0",
+  "brand": "Otafox",
+  "status": "approved",
+  "updated": "2026-08-17",
+  "sourceOfTruth": "../DESIGN.md",
+  "assets": [
+    {
+      "id": "otafox-mark",
+      "path": "mark/otafox-mark.svg",
+      "role": "mark",
+      "classification": "master",
+      "canonical": true,
+      "format": "SVG",
+      "background": "transparent",
+      "fill": "#09090B",
+      "viewBox": "0 0 1254 1254",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254,
+        "unit": "viewBox"
+      },
+      "checksumSha256": "859280daed0ca2b4fc19fc054efc458c1ace99d24c861163a1580b802216ebee",
+      "sourceRevision": "brand-v2.0.0",
+      "sourceAsset": "source/face-fav.svg",
+      "sourceChecksumSha256": "b7d91b2155c7cd70832a31c7e0788fbd4e32e3f82a2aa6568037f7a4a81d3aed",
+      "intendedConsumers": [
+        "app",
+        "docs",
+        "mobile",
+        "packages",
+        "editorial"
+      ],
+      "minimumSizePx": 16
+    },
+    {
+      "id": "otafox-mark-inverse",
+      "path": "mark/otafox-mark-inverse.svg",
+      "role": "mark-inverse",
+      "classification": "master",
+      "canonical": true,
+      "format": "SVG",
+      "background": "transparent",
+      "fill": "#FAFAFA",
+      "viewBox": "0 0 1254 1254",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254,
+        "unit": "viewBox"
+      },
+      "checksumSha256": "55c40a8111ec43016ccefcd161fdf688a0e474b7dc8d65744da756e045642e3c",
+      "sourceRevision": "brand-v2.0.0",
+      "sourceAsset": "source/face-fav.svg",
+      "sourceChecksumSha256": "b7d91b2155c7cd70832a31c7e0788fbd4e32e3f82a2aa6568037f7a4a81d3aed",
+      "intendedConsumers": [
+        "app",
+        "docs",
+        "mobile",
+        "packages",
+        "editorial"
+      ],
+      "minimumSizePx": 16
+    },
+    {
+      "id": "otafox-editorial-body",
+      "path": "editorial/otafox-body.svg",
+      "role": "editorial-body",
+      "classification": "master",
+      "canonical": true,
+      "format": "SVG",
+      "background": "transparent",
+      "fill": "#09090B",
+      "viewBox": "0 0 1254 1254",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254,
+        "unit": "viewBox"
+      },
+      "checksumSha256": "73fe939bde8a82a60dba11058ea15860adaf5c5b019c304c8c39b06d9df27537",
+      "sourceRevision": "brand-v2.0.0",
+      "sourceAsset": "source/body-fav.svg",
+      "sourceChecksumSha256": "9f2a2bc3be2444cf7ddfb5e78ef58559df28118087e235b9dabdac6ed4cdd5f8",
+      "intendedConsumers": [
+        "app-marketing",
+        "docs-editorial",
+        "press"
+      ],
+      "minimumSizePx": 96
+    },
+    {
+      "id": "otafox-editorial-body-inverse",
+      "path": "editorial/otafox-body-inverse.svg",
+      "role": "editorial-body-inverse",
+      "classification": "master",
+      "canonical": true,
+      "format": "SVG",
+      "background": "transparent",
+      "fill": "#FAFAFA",
+      "viewBox": "0 0 1254 1254",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254,
+        "unit": "viewBox"
+      },
+      "checksumSha256": "397d70fbd41e4d8d06cc1078e6850b204adfa6b1f30e1db8d5f65fbfa1836172",
+      "sourceRevision": "brand-v2.0.0",
+      "sourceAsset": "source/body-fav.svg",
+      "sourceChecksumSha256": "9f2a2bc3be2444cf7ddfb5e78ef58559df28118087e235b9dabdac6ed4cdd5f8",
+      "intendedConsumers": [
+        "app-marketing",
+        "docs-editorial",
+        "press"
+      ],
+      "minimumSizePx": 96
+    },
+    {
+      "id": "otafox-lockup",
+      "path": "lockup/otafox-lockup.svg",
+      "role": "horizontal-lockup",
+      "classification": "master",
+      "canonical": true,
+      "format": "SVG",
+      "background": "transparent",
+      "fill": "#09090B",
+      "viewBox": "0 0 228 64",
+      "dimensions": {
+        "width": 228,
+        "height": 64,
+        "unit": "viewBox"
+      },
+      "checksumSha256": "e8f6a81e31e1115a35e704761c2b697879d38dc0c7439b414c444e891cca8f59",
+      "sourceRevision": "brand-v2.0.0",
+      "sourceAsset": "source/face-fav.svg",
+      "sourceChecksumSha256": "b7d91b2155c7cd70832a31c7e0788fbd4e32e3f82a2aa6568037f7a4a81d3aed",
+      "intendedConsumers": [
+        "app",
+        "docs",
+        "packages",
+        "editorial",
+        "press"
+      ],
+      "minimumWidthPx": 96
+    },
+    {
+      "id": "otafox-lockup-inverse",
+      "path": "lockup/otafox-lockup-inverse.svg",
+      "role": "horizontal-lockup-inverse",
+      "classification": "master",
+      "canonical": true,
+      "format": "SVG",
+      "background": "transparent",
+      "fill": "#FAFAFA",
+      "viewBox": "0 0 228 64",
+      "dimensions": {
+        "width": 228,
+        "height": 64,
+        "unit": "viewBox"
+      },
+      "checksumSha256": "13daf304839f28cf64a7010cb6527dbe4615c98a6710cb88beae753f1369e6d8",
+      "sourceRevision": "brand-v2.0.0",
+      "sourceAsset": "source/face-fav.svg",
+      "sourceChecksumSha256": "b7d91b2155c7cd70832a31c7e0788fbd4e32e3f82a2aa6568037f7a4a81d3aed",
+      "intendedConsumers": [
+        "app",
+        "docs",
+        "packages",
+        "editorial",
+        "press"
+      ],
+      "minimumWidthPx": 96
+    },
+    {
+      "id": "otafox-app-icon-preview",
+      "path": "app-icon/source.svg",
+      "role": "app-icon-preview",
+      "classification": "preview",
+      "canonical": false,
+      "format": "SVG",
+      "background": "rounded #09090B tile with transparent outer corners",
+      "fill": "#FAFAFA",
+      "viewBox": "0 0 1024 1024",
+      "dimensions": {
+        "width": 1024,
+        "height": 1024,
+        "unit": "viewBox"
+      },
+      "checksumSha256": "7542b45829a83aecbd6be0f131664d8c211d237c162659dd6170f65ace1632f4",
+      "sourceRevision": "brand-v2.0.0",
+      "sourceAsset": "mark/otafox-mark-inverse.svg",
+      "sourceChecksumSha256": "55c40a8111ec43016ccefcd161fdf688a0e474b7dc8d65744da756e045642e3c",
+      "intendedConsumers": [
+        "design-catalog",
+        "release-review"
+      ],
+      "safeZone": "Rounded preview only. Do not submit this file to an app store."
+    },
+    {
+      "id": "otafox-ios-app-icon-source",
+      "path": "app-icon/ios-source.svg",
+      "role": "ios-app-icon-source",
+      "classification": "derivative",
+      "canonical": false,
+      "format": "SVG",
+      "background": "#09090B full bleed",
+      "fill": "#FAFAFA",
+      "viewBox": "0 0 1024 1024",
+      "dimensions": {
+        "width": 1024,
+        "height": 1024,
+        "unit": "viewBox"
+      },
+      "checksumSha256": "a9bcf6ceaf515a6865e23135d6489e3d3120c5dac49e7d2628e49db22c07c890",
+      "sourceRevision": "brand-v2.0.0",
+      "sourceAsset": "mark/otafox-mark-inverse.svg",
+      "sourceChecksumSha256": "55c40a8111ec43016ccefcd161fdf688a0e474b7dc8d65744da756e045642e3c",
+      "intendedConsumers": [
+        "mobile-ios"
+      ],
+      "safeZone": "Full-bleed square source with no authored corner mask; the face occupies the central 576 × 576 region."
+    },
+    {
+      "id": "otafox-android-app-icon-background",
+      "path": "app-icon/android-background.svg",
+      "role": "android-app-icon-background",
+      "classification": "derivative",
+      "canonical": false,
+      "format": "SVG",
+      "background": "#09090B full bleed",
+      "fill": "#09090B",
+      "viewBox": "0 0 108 108",
+      "dimensions": {
+        "width": 108,
+        "height": 108,
+        "unit": "viewBox"
+      },
+      "checksumSha256": "032b4c2242dfc5a4a0f4a1fc189a28c60804cead2f834e02ee921a141c72b49c",
+      "sourceRevision": "brand-v2.0.0",
+      "sourceAsset": "../tokens/primitives.json",
+      "sourceChecksumSha256": "1e0af3b2ea02307e432ab3408e28d3fa61b2361c54472919c3d1d6e8db8a6f85",
+      "intendedConsumers": [
+        "mobile-android-adaptive-icon"
+      ],
+      "safeZone": "Full 108 × 108 adaptive-icon background layer; no mask or corner radius is authored."
+    },
+    {
+      "id": "otafox-android-app-icon-foreground",
+      "path": "app-icon/android-foreground.svg",
+      "role": "android-app-icon-foreground",
+      "classification": "derivative",
+      "canonical": false,
+      "format": "SVG",
+      "background": "transparent",
+      "fill": "#FAFAFA",
+      "viewBox": "0 0 108 108",
+      "dimensions": {
+        "width": 108,
+        "height": 108,
+        "unit": "viewBox"
+      },
+      "checksumSha256": "8bb57cbeeda61d0b8ad6d1b4ce44a5c3fb6d1762e93934e0053ea48080aa5d14",
+      "sourceRevision": "brand-v2.0.0",
+      "sourceAsset": "mark/otafox-mark-inverse.svg",
+      "sourceChecksumSha256": "55c40a8111ec43016ccefcd161fdf688a0e474b7dc8d65744da756e045642e3c",
+      "intendedConsumers": [
+        "mobile-android-adaptive-icon"
+      ],
+      "safeZone": "Approved face geometry centered in the Android 66 × 66 safe region."
+    },
+    {
+      "id": "otafox-android-app-icon-monochrome",
+      "path": "app-icon/android-monochrome.svg",
+      "role": "android-app-icon-monochrome",
+      "classification": "derivative",
+      "canonical": false,
+      "format": "SVG",
+      "background": "transparent",
+      "fill": "#000000",
+      "viewBox": "0 0 108 108",
+      "dimensions": {
+        "width": 108,
+        "height": 108,
+        "unit": "viewBox"
+      },
+      "checksumSha256": "df2e6201681c39a52a34b537d021033cb7295c4d3457729644918b274d63c9f3",
+      "sourceRevision": "brand-v2.0.0",
+      "sourceAsset": "mark/otafox-mark.svg",
+      "sourceChecksumSha256": "859280daed0ca2b4fc19fc054efc458c1ace99d24c861163a1580b802216ebee",
+      "intendedConsumers": [
+        "mobile-android-themed-icon"
+      ],
+      "safeZone": "Single-color approved face geometry centered in the Android 66 × 66 safe region; Android supplies the themed color."
+    },
+    {
+      "id": "otafox-favicon-source",
+      "path": "favicon/source.svg",
+      "role": "favicon-source",
+      "classification": "derivative",
+      "canonical": false,
+      "format": "SVG",
+      "background": "transparent",
+      "fill": "#09090B",
+      "viewBox": "0 0 1254 1254",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254,
+        "unit": "viewBox"
+      },
+      "checksumSha256": "d8ca06a6d3f53a70c095674fa8b2388fb540f00dbdd8c7839f3372fbc7e5686a",
+      "sourceRevision": "brand-v2.0.0",
+      "sourceAsset": "mark/otafox-mark.svg",
+      "sourceChecksumSha256": "859280daed0ca2b4fc19fc054efc458c1ace99d24c861163a1580b802216ebee",
+      "intendedConsumers": [
+        "app-web",
+        "docs-web",
+        "marketing-web"
+      ],
+      "safeZone": "Approved face geometry on its original square canvas; raster consumers may add optical padding without editing paths."
+    }
+  ],
+  "legacy": [
+    {
+      "id": "legacy-logo-light",
+      "path": "../logo/logo-w.png",
+      "role": "legacy-full-logo-light",
+      "classification": "legacy",
+      "canonical": false,
+      "format": "PNG",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254,
+        "unit": "pixels"
+      },
+      "background": "white opaque",
+      "checksumSha256": "e14ca8d2c0275aff81364462b6d67ecbdb4cfd5086b13366ac1c53d70365126d",
+      "sourceRevision": "legacy-ast-001",
+      "intendedConsumers": [
+        "unmigrated-legacy-consumers"
+      ],
+      "migration": "preserve-only"
+    },
+    {
+      "id": "legacy-logo-dark",
+      "path": "../logo/logo.png",
+      "role": "legacy-full-logo-dark",
+      "classification": "legacy",
+      "canonical": false,
+      "format": "PNG",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254,
+        "unit": "pixels"
+      },
+      "background": "black opaque",
+      "checksumSha256": "9b9cd6d61b40873f04f4b16fa241fe8f5c26efd8293acd7e90b056c9442b7ab3",
+      "sourceRevision": "legacy-ast-001",
+      "intendedConsumers": [
+        "unmigrated-legacy-consumers"
+      ],
+      "migration": "preserve-only"
+    },
+    {
+      "id": "legacy-body-light",
+      "path": "../full-body-favicon/body-fav-w.png",
+      "role": "legacy-full-body-light",
+      "classification": "legacy",
+      "canonical": false,
+      "format": "PNG",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254,
+        "unit": "pixels"
+      },
+      "background": "white opaque",
+      "checksumSha256": "8b6416732e7a56d8ae0ad1f8ff4fb65b937753206937ce682cfd1e6dabc9c9da",
+      "sourceRevision": "legacy-ast-001",
+      "intendedConsumers": [
+        "unmigrated-legacy-consumers"
+      ],
+      "migration": "preserve-only"
+    },
+    {
+      "id": "legacy-body-dark",
+      "path": "../full-body-favicon/body-fav.png",
+      "role": "legacy-full-body-dark",
+      "classification": "legacy",
+      "canonical": false,
+      "format": "PNG",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254,
+        "unit": "pixels"
+      },
+      "background": "black opaque",
+      "checksumSha256": "0af525a48d7eb81e0c1020a8564961e147eab495bc070ca3096e2d70f52dc27e",
+      "sourceRevision": "legacy-ast-001",
+      "intendedConsumers": [
+        "unmigrated-legacy-consumers"
+      ],
+      "migration": "preserve-only"
+    },
+    {
+      "id": "legacy-face-light",
+      "path": "../small-favicon/face-fav-w.png",
+      "role": "legacy-face-light",
+      "classification": "legacy",
+      "canonical": false,
+      "format": "PNG",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254,
+        "unit": "pixels"
+      },
+      "background": "white opaque",
+      "checksumSha256": "deb0802942c5f9b83257ea6119851f58c3b45de0cdbc37af29d784b2b6d2f906",
+      "sourceRevision": "legacy-ast-001",
+      "intendedConsumers": [
+        "unmigrated-legacy-consumers"
+      ],
+      "migration": "preserve-only"
+    },
+    {
+      "id": "legacy-face-dark",
+      "path": "../small-favicon/face-fav.png",
+      "role": "legacy-face-dark",
+      "classification": "legacy",
+      "canonical": false,
+      "format": "PNG",
+      "dimensions": {
+        "width": 1254,
+        "height": 1254,
+        "unit": "pixels"
+      },
+      "background": "black opaque",
+      "checksumSha256": "3677c19db597261e2144f318f046293fbb81f548adb9e778adf5d5cb34f0bb1a",
+      "sourceRevision": "legacy-ast-001",
+      "intendedConsumers": [
+        "unmigrated-legacy-consumers"
+      ],
+      "migration": "preserve-only"
+    }
+  ]
+}

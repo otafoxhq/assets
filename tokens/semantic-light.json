@@ -1,0 +1,75 @@
+{
+  "$schema": "./schema.json",
+  "version": "1.1.0",
+  "status": "approved",
+  "updated": "2026-08-16",
+  "source": "../DESIGN.md",
+  "mode": "light",
+  "tokens": {
+    "canvas": { "value": "{color.neutral.50}", "type": "color", "description": "Primary Light application and page canvas." },
+    "surface": { "value": "{color.neutral.0}", "type": "color", "description": "Default Light component surface." },
+    "raised": { "value": "{color.neutral.0}", "type": "color", "description": "Raised Light surface with elevation or border." },
+    "overlay": { "value": "{color.neutral.0}", "type": "color", "description": "Light popover and modal surface." },
+    "scrim": { "value": "#09090B99", "type": "color", "description": "Light-mode modal scrim." },
+    "border": {
+      "subtle": { "value": "{color.neutral.200}", "type": "color", "description": "Quiet structural divider." },
+      "default": { "value": "{color.neutral.300}", "type": "color", "description": "Quiet structural divider and panel boundary; explicitly not a control boundary." },
+      "strong": { "value": "{color.neutral.500}", "type": "color", "description": "Emphasized structural border." }
+    },
+    "control": {
+      "border": {
+        "default": { "value": "{color.neutral.500}", "type": "color", "description": "Light control boundary with at least 3:1 contrast on surface." },
+        "hover": { "value": "{color.neutral.600}", "type": "color", "description": "Light hovered control boundary." },
+        "focus": { "value": "{color.ember.700}", "type": "color", "description": "Light focused control boundary." },
+        "selected": { "value": "{color.ember.700}", "type": "color", "description": "Light selected control boundary." },
+        "disabled": { "value": "{color.neutral.500}", "type": "color", "description": "Light disabled control boundary paired with disabled behavior and text." },
+        "invalid": { "value": "{color.red.600}", "type": "color", "description": "Light invalid control boundary paired with an error message." }
+      }
+    },
+    "text": {
+      "primary": { "value": "{color.neutral.950}", "type": "color", "description": "Primary Light reading color." },
+      "secondary": { "value": "{color.neutral.700}", "type": "color", "description": "Supporting Light text." },
+      "muted": { "value": "{color.neutral.600}", "type": "color", "description": "Subordinate Light metadata." },
+      "inverse": { "value": "{color.neutral.0}", "type": "color", "description": "Text on dark or primary solid surfaces." },
+      "link": { "value": "{color.ember.700}", "type": "color", "description": "Light inline link and bounded brand emphasis." },
+      "disabled": { "value": "{color.neutral.500}", "type": "color", "description": "Disabled Light text used with an additional state cue." }
+    },
+    "interactive": {
+      "default": { "value": "{color.ember.700}", "type": "color", "description": "Light primary action fill." },
+      "hover": { "value": "{color.ember.800}", "type": "color", "description": "Light primary hover fill." },
+      "pressed": { "value": "{color.ember.900}", "type": "color", "description": "Light primary pressed fill." },
+      "selected": { "value": "{color.ember.700}", "type": "color", "description": "Light selected control indicator; selected surfaces use bounded opacity in the consumer." },
+      "focus": { "value": "{color.ember.600}", "type": "color", "description": "Light visible focus ring." },
+      "disabled": { "value": "{color.neutral.400}", "type": "color", "description": "Light disabled control fill." },
+      "onSolid": { "value": "{color.neutral.0}", "type": "color", "description": "Content on Light primary solid actions." }
+    },
+    "success": {
+      "surface": { "value": "{color.green.50}", "type": "color", "description": "Light success message surface." },
+      "border": { "value": "{color.green.600}", "type": "color", "description": "Light success message border." },
+      "text": { "value": "{color.green.800}", "type": "color", "description": "Light success message text and icon." },
+      "solid": { "value": "{color.green.700}", "type": "color", "description": "Light solid success indicator." },
+      "onSolid": { "value": "{color.neutral.0}", "type": "color", "description": "Content on Light solid success." }
+    },
+    "warning": {
+      "surface": { "value": "{color.amber.50}", "type": "color", "description": "Light warning message surface." },
+      "border": { "value": "{color.amber.600}", "type": "color", "description": "Light warning message border." },
+      "text": { "value": "{color.amber.900}", "type": "color", "description": "Light warning message text and icon." },
+      "solid": { "value": "{color.amber.800}", "type": "color", "description": "Light solid warning indicator." },
+      "onSolid": { "value": "{color.neutral.0}", "type": "color", "description": "Content on Light solid warning." }
+    },
+    "danger": {
+      "surface": { "value": "{color.red.50}", "type": "color", "description": "Light danger message surface." },
+      "border": { "value": "{color.red.600}", "type": "color", "description": "Light danger message border." },
+      "text": { "value": "{color.red.800}", "type": "color", "description": "Light danger message text and icon." },
+      "solid": { "value": "{color.red.700}", "type": "color", "description": "Light solid danger indicator." },
+      "onSolid": { "value": "{color.neutral.0}", "type": "color", "description": "Content on Light solid danger." }
+    },
+    "info": {
+      "surface": { "value": "{color.blue.50}", "type": "color", "description": "Light information message surface." },
+      "border": { "value": "{color.blue.600}", "type": "color", "description": "Light information message border." },
+      "text": { "value": "{color.blue.800}", "type": "color", "description": "Light information message text and icon." },
+      "solid": { "value": "{color.blue.700}", "type": "color", "description": "Light solid information indicator." },
+      "onSolid": { "value": "{color.neutral.0}", "type": "color", "description": "Content on Light solid information." }
+    }
+  }
+}

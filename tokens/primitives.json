@@ -1,0 +1,240 @@
+{
+  "$schema": "./schema.json",
+  "version": "1.1.0",
+  "status": "approved",
+  "updated": "2026-08-16",
+  "source": "../DESIGN.md",
+  "tokens": {
+    "color": {
+      "neutral": {
+        "0": { "value": "#FFFFFF", "type": "color", "description": "Absolute white for controlled contrast roles." },
+        "50": { "value": "#FAFAFA", "type": "color", "description": "Light canvas and inverse brand ink." },
+        "100": { "value": "#F4F4F5", "type": "color", "description": "Quiet light inset surface." },
+        "200": { "value": "#E4E4E7", "type": "color", "description": "Subtle light border and disabled fill." },
+        "300": { "value": "#D4D4D8", "type": "color", "description": "Default light border." },
+        "400": { "value": "#A1A1AA", "type": "color", "description": "Dark muted text and Light disabled interaction." },
+        "500": { "value": "#71717A", "type": "color", "description": "Strong cross-theme border and Light disabled text." },
+        "600": { "value": "#52525B", "type": "color", "description": "Light muted text and Dark disabled control." },
+        "700": { "value": "#3F3F46", "type": "color", "description": "Dark default border." },
+        "800": { "value": "#27272A", "type": "color", "description": "Dark raised surface and subtle border." },
+        "900": { "value": "#18181B", "type": "color", "description": "Dark surface." },
+        "950": { "value": "#09090B", "type": "color", "description": "Dark canvas and canonical brand ink." }
+      },
+      "ember": {
+        "50": { "value": "#FFF7ED", "type": "color", "description": "Selected light surface." },
+        "100": { "value": "#FFEDD5", "type": "color", "description": "Very soft Ember emphasis." },
+        "200": { "value": "#FED7AA", "type": "color", "description": "Soft Ember border." },
+        "300": { "value": "#FDBA74", "type": "color", "description": "Dark-mode Ember hover." },
+        "400": { "value": "#FB923C", "type": "color", "description": "Dark-mode primary interaction and focus." },
+        "500": { "value": "#F97316", "type": "color", "description": "Core Ember accent." },
+        "600": { "value": "#EA580C", "type": "color", "description": "Light focus ring." },
+        "700": { "value": "#C2410C", "type": "color", "description": "Light primary interaction and link." },
+        "800": { "value": "#9A3412", "type": "color", "description": "Light primary hover." },
+        "900": { "value": "#7C2D12", "type": "color", "description": "Light primary pressed." },
+        "950": { "value": "#431407", "type": "color", "description": "Dark selected surface." }
+      },
+      "green": {
+        "50": { "value": "#F0FDF4", "type": "color", "description": "Light success surface." },
+        "100": { "value": "#DCFCE7", "type": "color", "description": "Very soft green." },
+        "200": { "value": "#BBF7D0", "type": "color", "description": "Soft green border." },
+        "300": { "value": "#86EFAC", "type": "color", "description": "Dark success text." },
+        "400": { "value": "#4ADE80", "type": "color", "description": "Dark success solid." },
+        "500": { "value": "#22C55E", "type": "color", "description": "Core green." },
+        "600": { "value": "#16A34A", "type": "color", "description": "Success border." },
+        "700": { "value": "#15803D", "type": "color", "description": "Light success solid." },
+        "800": { "value": "#166534", "type": "color", "description": "Light success text." },
+        "900": { "value": "#14532D", "type": "color", "description": "Deep green." },
+        "950": { "value": "#052E16", "type": "color", "description": "Dark success surface." }
+      },
+      "amber": {
+        "50": { "value": "#FFFBEB", "type": "color", "description": "Light warning surface." },
+        "100": { "value": "#FEF3C7", "type": "color", "description": "Very soft amber." },
+        "200": { "value": "#FDE68A", "type": "color", "description": "Soft amber border." },
+        "300": { "value": "#FCD34D", "type": "color", "description": "Dark warning text." },
+        "400": { "value": "#FBBF24", "type": "color", "description": "Dark warning solid." },
+        "500": { "value": "#F59E0B", "type": "color", "description": "Core amber." },
+        "600": { "value": "#D97706", "type": "color", "description": "Warning border." },
+        "700": { "value": "#B45309", "type": "color", "description": "Strong amber." },
+        "800": { "value": "#92400E", "type": "color", "description": "Light warning solid." },
+        "900": { "value": "#78350F", "type": "color", "description": "Light warning text." },
+        "950": { "value": "#451A03", "type": "color", "description": "Dark warning surface." }
+      },
+      "red": {
+        "50": { "value": "#FEF2F2", "type": "color", "description": "Light danger surface." },
+        "100": { "value": "#FEE2E2", "type": "color", "description": "Very soft red." },
+        "200": { "value": "#FECACA", "type": "color", "description": "Soft red border." },
+        "300": { "value": "#FCA5A5", "type": "color", "description": "Dark danger text." },
+        "400": { "value": "#F87171", "type": "color", "description": "Dark danger solid." },
+        "500": { "value": "#EF4444", "type": "color", "description": "Core red." },
+        "600": { "value": "#DC2626", "type": "color", "description": "Danger border." },
+        "700": { "value": "#B91C1C", "type": "color", "description": "Light danger solid." },
+        "800": { "value": "#991B1B", "type": "color", "description": "Light danger text." },
+        "900": { "value": "#7F1D1D", "type": "color", "description": "Deep red." },
+        "950": { "value": "#450A0A", "type": "color", "description": "Dark danger surface." }
+      },
+      "blue": {
+        "50": { "value": "#EFF6FF", "type": "color", "description": "Light information surface." },
+        "100": { "value": "#DBEAFE", "type": "color", "description": "Very soft blue." },
+        "200": { "value": "#BFDBFE", "type": "color", "description": "Soft blue border." },
+        "300": { "value": "#93C5FD", "type": "color", "description": "Dark information text." },
+        "400": { "value": "#60A5FA", "type": "color", "description": "Dark information solid." },
+        "500": { "value": "#3B82F6", "type": "color", "description": "Dark information border." },
+        "600": { "value": "#2563EB", "type": "color", "description": "Light information border." },
+        "700": { "value": "#1D4ED8", "type": "color", "description": "Light information solid." },
+        "800": { "value": "#1E40AF", "type": "color", "description": "Light information text." },
+        "900": { "value": "#1E3A8A", "type": "color", "description": "Deep blue." },
+        "950": { "value": "#172554", "type": "color", "description": "Dark information surface." }
+      }
+    },
+    "space": {
+      "0": { "value": 0, "type": "dimension", "description": "No space." },
+      "0.5": { "value": 2, "type": "dimension", "description": "Hairline optical adjustment." },
+      "1": { "value": 4, "type": "dimension", "description": "Tight internal separation." },
+      "1.5": { "value": 6, "type": "dimension", "description": "Compact control separation." },
+      "2": { "value": 8, "type": "dimension", "description": "Default inline gap." },
+      "3": { "value": 12, "type": "dimension", "description": "Compact component padding." },
+      "4": { "value": 16, "type": "dimension", "description": "Base spacing unit and compact gutter." },
+      "5": { "value": 20, "type": "dimension", "description": "Comfortable control padding." },
+      "6": { "value": 24, "type": "dimension", "description": "Default content gutter." },
+      "8": { "value": 32, "type": "dimension", "description": "Section inset and wide gutter." },
+      "10": { "value": 40, "type": "dimension", "description": "Compact section separation." },
+      "12": { "value": 48, "type": "dimension", "description": "Standard section separation." },
+      "16": { "value": 64, "type": "dimension", "description": "Large section separation." },
+      "20": { "value": 80, "type": "dimension", "description": "Editorial section separation." },
+      "24": { "value": 96, "type": "dimension", "description": "Hero section separation." }
+    },
+    "radius": {
+      "none": { "value": 0, "type": "dimension", "description": "Square edge." },
+      "xs": { "value": 4, "type": "dimension", "description": "Tight technical item radius." },
+      "sm": { "value": 6, "type": "dimension", "description": "Compact control radius." },
+      "md": { "value": 8, "type": "dimension", "description": "Default control radius." },
+      "lg": { "value": 12, "type": "dimension", "description": "Panel radius." },
+      "xl": { "value": 16, "type": "dimension", "description": "Feature surface radius." },
+      "2xl": { "value": 24, "type": "dimension", "description": "Editorial feature radius." },
+      "full": { "value": 999, "type": "dimension", "description": "Pill or circular radius." }
+    },
+    "border": {
+      "width": {
+        "none": { "value": 0, "type": "dimension", "description": "No border." },
+        "default": { "value": 1, "type": "dimension", "description": "Default separator and control border." },
+        "strong": { "value": 2, "type": "dimension", "description": "Emphasized focus-safe border." }
+      }
+    },
+    "opacity": {
+      "hidden": { "value": 0, "type": "number", "description": "Fully transparent." },
+      "disabled": { "value": 0.48, "type": "number", "description": "Disabled content opacity." },
+      "muted": { "value": 0.64, "type": "number", "description": "Subordinate decorative opacity." },
+      "scrimLight": { "value": 0.56, "type": "number", "description": "Light-mode modal scrim opacity." },
+      "scrimDark": { "value": 0.72, "type": "number", "description": "Dark-mode modal scrim opacity." },
+      "full": { "value": 1, "type": "number", "description": "Fully opaque." }
+    },
+    "type": {
+      "family": {
+        "display": { "value": "Geist", "type": "fontFamily", "description": "Product display and heading family." },
+        "body": { "value": "Inter", "type": "fontFamily", "description": "Body copy and control family." },
+        "technical": { "value": "Commit Mono", "type": "fontFamily", "description": "Code, identifiers, versions, and technical data family." }
+      },
+      "size": {
+        "caption": { "value": 12, "type": "dimension", "description": "Caption and technical annotation size." },
+        "label": { "value": 14, "type": "dimension", "description": "Control label size." },
+        "body": { "value": 16, "type": "dimension", "description": "Default reading size." },
+        "headingSm": { "value": 20, "type": "dimension", "description": "Small section heading size." },
+        "headingMd": { "value": 24, "type": "dimension", "description": "Panel heading size." },
+        "headingLg": { "value": 32, "type": "dimension", "description": "Page heading size." },
+        "headingXl": { "value": 48, "type": "dimension", "description": "Marketing feature heading size." },
+        "display": { "value": 64, "type": "dimension", "description": "Large editorial display size." }
+      },
+      "lineHeight": {
+        "caption": { "value": 16, "type": "dimension", "description": "Caption line height." },
+        "label": { "value": 20, "type": "dimension", "description": "Control label line height." },
+        "body": { "value": 24, "type": "dimension", "description": "Default reading line height." },
+        "headingSm": { "value": 28, "type": "dimension", "description": "Small heading line height." },
+        "headingMd": { "value": 32, "type": "dimension", "description": "Panel heading line height." },
+        "headingLg": { "value": 40, "type": "dimension", "description": "Page heading line height." },
+        "headingXl": { "value": 56, "type": "dimension", "description": "Marketing heading line height." },
+        "display": { "value": 68, "type": "dimension", "description": "Editorial display line height." }
+      },
+      "weight": {
+        "regular": { "value": 400, "type": "fontWeight", "description": "Default reading weight." },
+        "medium": { "value": 500, "type": "fontWeight", "description": "Control and label weight." },
+        "semibold": { "value": 600, "type": "fontWeight", "description": "Heading and emphasis weight." },
+        "bold": { "value": 700, "type": "fontWeight", "description": "Rare high-emphasis weight." }
+      },
+      "tracking": {
+        "tightest": { "value": -0.03, "type": "number", "description": "Display tracking in em units." },
+        "tighter": { "value": -0.02, "type": "number", "description": "Large-heading tracking in em units." },
+        "tight": { "value": -0.01, "type": "number", "description": "Small-heading tracking in em units." },
+        "normal": { "value": 0, "type": "number", "description": "Body and control tracking in em units." },
+        "wide": { "value": 0.01, "type": "number", "description": "Caption tracking in em units." }
+      }
+    },
+    "duration": {
+      "instant": { "value": 0, "type": "duration", "description": "No animation duration." },
+      "fast": { "value": 120, "type": "duration", "description": "Micro-interaction duration in milliseconds." },
+      "base": { "value": 180, "type": "duration", "description": "Default state-transition duration in milliseconds." },
+      "slow": { "value": 280, "type": "duration", "description": "Short entrance or exit duration in milliseconds." }
+    },
+    "easing": {
+      "standard": { "value": [0.2, 0, 0, 1], "type": "cubicBezier", "description": "Default state-change easing." },
+      "enter": { "value": [0.16, 1, 0.3, 1], "type": "cubicBezier", "description": "Short entrance easing." },
+      "exit": { "value": [0.4, 0, 1, 1], "type": "cubicBezier", "description": "Short exit easing." }
+    },
+    "elevation": {
+      "none": { "value": 0, "type": "number", "description": "Flush surface elevation." },
+      "low": { "value": 1, "type": "number", "description": "Subtle raised control elevation." },
+      "medium": { "value": 3, "type": "number", "description": "Popover and floating panel elevation." },
+      "high": { "value": 8, "type": "number", "description": "Modal elevation." }
+    },
+    "zIndex": {
+      "base": { "value": 0, "type": "number", "description": "Default flow layer." },
+      "sticky": { "value": 100, "type": "number", "description": "Sticky navigation layer." },
+      "popover": { "value": 300, "type": "number", "description": "Popover and menu layer." },
+      "overlay": { "value": 400, "type": "number", "description": "Scrim layer." },
+      "modal": { "value": 500, "type": "number", "description": "Modal content layer." },
+      "toast": { "value": 600, "type": "number", "description": "Transient notification layer." }
+    },
+    "layout": {
+      "width": {
+        "compact": { "value": 640, "type": "dimension", "description": "Focused reading and form width." },
+        "content": { "value": 960, "type": "dimension", "description": "Default content width." },
+        "wide": { "value": 1200, "type": "dimension", "description": "Wide dashboard and marketing width." }
+      },
+      "gutter": {
+        "compact": { "value": 16, "type": "dimension", "description": "Small-screen horizontal gutter." },
+        "default": { "value": 24, "type": "dimension", "description": "Default horizontal gutter." },
+        "wide": { "value": 32, "type": "dimension", "description": "Wide-screen horizontal gutter." }
+      },
+      "breakpoint": {
+        "sm": { "value": 640, "type": "dimension", "description": "Small responsive breakpoint." },
+        "md": { "value": 768, "type": "dimension", "description": "Medium responsive breakpoint." },
+        "lg": { "value": 1024, "type": "dimension", "description": "Large responsive breakpoint." },
+        "xl": { "value": 1280, "type": "dimension", "description": "Extra-large responsive breakpoint." },
+        "2xl": { "value": 1536, "type": "dimension", "description": "Maximum responsive breakpoint." }
+      },
+      "grid": {
+        "columns": {
+          "compact": { "value": 4, "type": "number", "description": "Compact grid column count." },
+          "medium": { "value": 8, "type": "number", "description": "Medium grid column count." },
+          "wide": { "value": 12, "type": "number", "description": "Wide grid column count." }
+        },
+        "gap": {
+          "compact": { "value": 16, "type": "dimension", "description": "Compact grid gap." },
+          "medium": { "value": 24, "type": "dimension", "description": "Medium grid gap." },
+          "wide": { "value": 32, "type": "dimension", "description": "Wide grid gap." }
+        }
+      }
+    },
+    "size": {
+      "icon": {
+        "sm": { "value": 16, "type": "dimension", "description": "Compact icon size." },
+        "md": { "value": 20, "type": "dimension", "description": "Default icon size." },
+        "lg": { "value": 24, "type": "dimension", "description": "Prominent icon size." },
+        "xl": { "value": 32, "type": "dimension", "description": "Feature icon size." }
+      },
+      "touch": {
+        "minimum": { "value": 44, "type": "dimension", "description": "Minimum touch target on every platform." },
+        "comfortable": { "value": 48, "type": "dimension", "description": "Preferred native touch target." }
+      }
+    }
+  }
+}

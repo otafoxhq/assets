@@ -1,0 +1,75 @@
+{
+  "$schema": "./schema.json",
+  "version": "1.1.0",
+  "status": "approved",
+  "updated": "2026-08-16",
+  "source": "../DESIGN.md",
+  "mode": "dark",
+  "tokens": {
+    "canvas": { "value": "{color.neutral.950}", "type": "color", "description": "Primary Dark application and page canvas." },
+    "surface": { "value": "{color.neutral.900}", "type": "color", "description": "Default Dark component surface." },
+    "raised": { "value": "{color.neutral.800}", "type": "color", "description": "Raised Dark surface with elevation or border." },
+    "overlay": { "value": "{color.neutral.800}", "type": "color", "description": "Dark popover and modal surface." },
+    "scrim": { "value": "#000000B3", "type": "color", "description": "Dark-mode modal scrim." },
+    "border": {
+      "subtle": { "value": "{color.neutral.800}", "type": "color", "description": "Quiet structural divider." },
+      "default": { "value": "{color.neutral.700}", "type": "color", "description": "Quiet structural divider and panel boundary; explicitly not a control boundary." },
+      "strong": { "value": "{color.neutral.500}", "type": "color", "description": "Emphasized structural border." }
+    },
+    "control": {
+      "border": {
+        "default": { "value": "{color.neutral.500}", "type": "color", "description": "Dark control boundary with at least 3:1 contrast on surface." },
+        "hover": { "value": "{color.neutral.400}", "type": "color", "description": "Dark hovered control boundary." },
+        "focus": { "value": "{color.ember.400}", "type": "color", "description": "Dark focused control boundary." },
+        "selected": { "value": "{color.ember.400}", "type": "color", "description": "Dark selected control boundary." },
+        "disabled": { "value": "{color.neutral.500}", "type": "color", "description": "Dark disabled control boundary paired with disabled behavior and text." },
+        "invalid": { "value": "{color.red.400}", "type": "color", "description": "Dark invalid control boundary paired with an error message." }
+      }
+    },
+    "text": {
+      "primary": { "value": "{color.neutral.50}", "type": "color", "description": "Primary Dark reading color." },
+      "secondary": { "value": "{color.neutral.300}", "type": "color", "description": "Supporting Dark text." },
+      "muted": { "value": "{color.neutral.400}", "type": "color", "description": "Subordinate Dark metadata." },
+      "inverse": { "value": "{color.neutral.950}", "type": "color", "description": "Text on pale or primary solid surfaces." },
+      "link": { "value": "{color.ember.400}", "type": "color", "description": "Dark inline link and bounded brand emphasis." },
+      "disabled": { "value": "{color.neutral.400}", "type": "color", "description": "Disabled Dark text used with an additional state cue." }
+    },
+    "interactive": {
+      "default": { "value": "{color.ember.400}", "type": "color", "description": "Dark primary action fill." },
+      "hover": { "value": "{color.ember.300}", "type": "color", "description": "Dark primary hover fill." },
+      "pressed": { "value": "{color.ember.200}", "type": "color", "description": "Dark primary pressed fill." },
+      "selected": { "value": "{color.ember.400}", "type": "color", "description": "Dark selected control indicator; selected surfaces use bounded opacity in the consumer." },
+      "focus": { "value": "{color.ember.400}", "type": "color", "description": "Dark visible focus ring." },
+      "disabled": { "value": "{color.neutral.600}", "type": "color", "description": "Dark disabled control fill." },
+      "onSolid": { "value": "{color.neutral.950}", "type": "color", "description": "Content on Dark primary solid actions." }
+    },
+    "success": {
+      "surface": { "value": "{color.green.950}", "type": "color", "description": "Dark success message surface." },
+      "border": { "value": "{color.green.600}", "type": "color", "description": "Dark success message border." },
+      "text": { "value": "{color.green.300}", "type": "color", "description": "Dark success message text and icon." },
+      "solid": { "value": "{color.green.400}", "type": "color", "description": "Dark solid success indicator." },
+      "onSolid": { "value": "{color.neutral.950}", "type": "color", "description": "Content on Dark solid success." }
+    },
+    "warning": {
+      "surface": { "value": "{color.amber.950}", "type": "color", "description": "Dark warning message surface." },
+      "border": { "value": "{color.amber.600}", "type": "color", "description": "Dark warning message border." },
+      "text": { "value": "{color.amber.300}", "type": "color", "description": "Dark warning message text and icon." },
+      "solid": { "value": "{color.amber.400}", "type": "color", "description": "Dark solid warning indicator." },
+      "onSolid": { "value": "{color.neutral.950}", "type": "color", "description": "Content on Dark solid warning." }
+    },
+    "danger": {
+      "surface": { "value": "{color.red.950}", "type": "color", "description": "Dark danger message surface." },
+      "border": { "value": "{color.red.600}", "type": "color", "description": "Dark danger message border." },
+      "text": { "value": "{color.red.300}", "type": "color", "description": "Dark danger message text and icon." },
+      "solid": { "value": "{color.red.400}", "type": "color", "description": "Dark solid danger indicator." },
+      "onSolid": { "value": "{color.neutral.950}", "type": "color", "description": "Content on Dark solid danger." }
+    },
+    "info": {
+      "surface": { "value": "{color.blue.950}", "type": "color", "description": "Dark information message surface." },
+      "border": { "value": "{color.blue.500}", "type": "color", "description": "Dark information message border." },
+      "text": { "value": "{color.blue.300}", "type": "color", "description": "Dark information message text and icon." },
+      "solid": { "value": "{color.blue.400}", "type": "color", "description": "Dark solid information indicator." },
+      "onSolid": { "value": "{color.neutral.950}", "type": "color", "description": "Content on Dark solid information." }
+    }
+  }
+}
