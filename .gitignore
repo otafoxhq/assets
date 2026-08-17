@@ -13,3 +13,9 @@ Thumbs.db
 *.tmp
 *.bak
 *.autosave
+
+# Local-only development and agent artifacts
+scripts/
+specs/
+superpowers/
+.superpowers/
