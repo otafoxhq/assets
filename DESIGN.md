@@ -141,7 +141,8 @@ explains a consequence or boundary; it does not repeat the label.
 
 Quiet operational confidence means the interface stays out of the way until a
 decision needs attention. Warm graphite and paper-like neutrals carry the
-structure. Ember marks the current choice, focus, and a bounded primary action.
+structure. Otafox primary green marks the current choice, focus, and a bounded
+primary action.
 Semantic colors keep their literal jobs.
 
 The hierarchy is built with typography, alignment, and space before decoration:
@@ -214,15 +215,38 @@ source revisions and checksums.
 ### Primitive families
 
 - Neutral `0–950`: canvas, surface, border, type, disabled state, and structure.
-- Ember `50–950`: brand emphasis and interaction.
+- Otafox primary green `50–950`: brand emphasis and interaction.
 - Green `50–950`: success only.
 - Amber `50–950`: warning and caution only.
 - Red `50–950`: danger, destructive action, and error only.
 - Blue `50–950`: neutral information only.
 
-Ember is not a status color. A warning never becomes orange merely because the
-brand accent is orange. Status treatments combine color with text, icon, shape,
-or position so their meaning survives color-vision differences.
+Otafox primary green is not a status color. A success state never uses the
+primary scale merely because both families are green. Status treatments combine
+color with text, icon, shape, or position so their meaning survives color-vision
+differences.
+
+The primary scale is:
+
+| Step | Value | Intended role |
+| --- | --- | --- |
+| 50 | `#F5FDF2` | Lightest brand surface |
+| 100 | `#E8FAE1` | Light selected surface |
+| 200 | `#D8F6CE` | Soft brand border and emphasis |
+| 300 | `#C5F1B8` | Dark hover |
+| 400 | `#B8EEA8` | Soft accent |
+| 500 | `#B0EC9C` | Canonical primary fill |
+| 600 | `#8DCE78` | Light hover and Dark pressed |
+| 700 | `#66A957` | Light pressed |
+| 800 | `#477D3D` | Accessible Light link, focus, and boundary |
+| 900 | `#31572B` | Deep brand emphasis |
+| 950 | `#173117` | Dark selected surface |
+
+`#B0EC9C` is a fill and accent, not Light-mode body or link text. Use
+`#09090B` on a primary solid. Light inline links, focus rings, selected
+boundaries, and control boundaries use `#477D3D`; it reaches 4.92:1 on white.
+The primary solid and dark ink reach 14.52:1. When a primary solid sits on a
+Light surface, use a `#477D3D` boundary so the control shape remains visible.
 
 ### Core semantic roles
 
@@ -239,16 +263,17 @@ or position so their meaning survives color-vision differences.
 | Text primary | `#09090B` | `#FAFAFA` |
 | Text secondary | `#3F3F46` | `#D4D4D8` |
 | Text muted | `#52525B` | `#A1A1AA` |
-| Link | `#C2410C` | `#FB923C` |
-| Interactive default | `#C2410C` | `#FB923C` |
-| Interactive hover | `#9A3412` | `#FDBA74` |
-| Interactive pressed | `#7C2D12` | `#FED7AA` |
-| Interactive selected | `#C2410C` | `#FB923C` |
-| Interactive focus | `#EA580C` | `#FB923C` |
+| Link | `#477D3D` | `#B0EC9C` |
+| Interactive default | `#B0EC9C` | `#B0EC9C` |
+| Interactive hover | `#8DCE78` | `#C5F1B8` |
+| Interactive pressed | `#66A957` | `#8DCE78` |
+| Interactive selected | `#477D3D` | `#B0EC9C` |
+| Interactive focus | `#477D3D` | `#B0EC9C` |
 | Interactive disabled | `#A1A1AA` | `#52525B` |
+| Content on primary | `#09090B` | `#09090B` |
 
 Selected is an indicator color, not permission to flood a large container with
-full-strength Ember. Consumer recipes may apply it to a border, icon, switch
+full-strength primary green. Consumer recipes may apply it to a border, icon, switch
 thumb, or a bounded translucent layer while retaining the semantic source.
 
 Structural borders may remain quiet because they group content rather than
@@ -258,8 +283,8 @@ define an interactive boundary. Controls use a separate contrast-safe role:
 | --- | --- | --- |
 | Default | `#71717A` | `#71717A` |
 | Hover | `#52525B` | `#A1A1AA` |
-| Focus | `#C2410C` | `#FB923C` |
-| Selected | `#C2410C` | `#FB923C` |
+| Focus | `#477D3D` | `#B0EC9C` |
+| Selected | `#477D3D` | `#B0EC9C` |
 | Disabled | `#71717A` | `#71717A` |
 | Invalid | `#DC2626` | `#F87171` |
 
@@ -269,6 +294,14 @@ Dark. The automated contract recalculates every state rather than trusting this
 recorded range.
 Disabled and invalid states still require behavior, semantics, and text; the
 border color alone never communicates the state.
+
+### Breaking primary-color migration
+
+Token revision `2.0.0` removes the `color.ember` primitive instead of keeping a
+compatibility alias. Consumers must migrate to `color.brandGreen` and semantic
+roles in the same release. The migration changes brand interaction only;
+`color.green` continues to own success and the amber, red, and blue status
+families remain unchanged.
 
 ### Status roles
 

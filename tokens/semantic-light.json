@@ -1,8 +1,8 @@
 {
   "$schema": "./schema.json",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "status": "approved",
-  "updated": "2026-08-16",
+  "updated": "2026-08-17",
   "source": "../DESIGN.md",
   "mode": "light",
   "tokens": {
@@ -20,8 +20,8 @@
       "border": {
         "default": { "value": "{color.neutral.500}", "type": "color", "description": "Light control boundary with at least 3:1 contrast on surface." },
         "hover": { "value": "{color.neutral.600}", "type": "color", "description": "Light hovered control boundary." },
-        "focus": { "value": "{color.ember.700}", "type": "color", "description": "Light focused control boundary." },
-        "selected": { "value": "{color.ember.700}", "type": "color", "description": "Light selected control boundary." },
+        "focus": { "value": "{color.brandGreen.800}", "type": "color", "description": "Light focused control boundary." },
+        "selected": { "value": "{color.brandGreen.800}", "type": "color", "description": "Light selected control boundary." },
         "disabled": { "value": "{color.neutral.500}", "type": "color", "description": "Light disabled control boundary paired with disabled behavior and text." },
         "invalid": { "value": "{color.red.600}", "type": "color", "description": "Light invalid control boundary paired with an error message." }
       }
@@ -31,17 +31,17 @@
       "secondary": { "value": "{color.neutral.700}", "type": "color", "description": "Supporting Light text." },
       "muted": { "value": "{color.neutral.600}", "type": "color", "description": "Subordinate Light metadata." },
       "inverse": { "value": "{color.neutral.0}", "type": "color", "description": "Text on dark or primary solid surfaces." },
-      "link": { "value": "{color.ember.700}", "type": "color", "description": "Light inline link and bounded brand emphasis." },
+      "link": { "value": "{color.brandGreen.800}", "type": "color", "description": "Light inline link and bounded brand emphasis." },
       "disabled": { "value": "{color.neutral.500}", "type": "color", "description": "Disabled Light text used with an additional state cue." }
     },
     "interactive": {
-      "default": { "value": "{color.ember.700}", "type": "color", "description": "Light primary action fill." },
-      "hover": { "value": "{color.ember.800}", "type": "color", "description": "Light primary hover fill." },
-      "pressed": { "value": "{color.ember.900}", "type": "color", "description": "Light primary pressed fill." },
-      "selected": { "value": "{color.ember.700}", "type": "color", "description": "Light selected control indicator; selected surfaces use bounded opacity in the consumer." },
-      "focus": { "value": "{color.ember.600}", "type": "color", "description": "Light visible focus ring." },
+      "default": { "value": "{color.brandGreen.500}", "type": "color", "description": "Light primary action fill." },
+      "hover": { "value": "{color.brandGreen.600}", "type": "color", "description": "Light primary hover fill." },
+      "pressed": { "value": "{color.brandGreen.700}", "type": "color", "description": "Light primary pressed fill." },
+      "selected": { "value": "{color.brandGreen.800}", "type": "color", "description": "Light selected control indicator; selected surfaces use the brandGreen.100 primitive in the consumer." },
+      "focus": { "value": "{color.brandGreen.800}", "type": "color", "description": "Light visible focus ring." },
       "disabled": { "value": "{color.neutral.400}", "type": "color", "description": "Light disabled control fill." },
-      "onSolid": { "value": "{color.neutral.0}", "type": "color", "description": "Content on Light primary solid actions." }
+      "onSolid": { "value": "{color.neutral.950}", "type": "color", "description": "Dark content on Light primary solid actions." }
     },
     "success": {
       "surface": { "value": "{color.green.50}", "type": "color", "description": "Light success message surface." },

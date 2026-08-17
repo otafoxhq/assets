@@ -37,14 +37,20 @@ consumer code.
 
 ## Color contract
 
-Neutral values carry most of the interface. Ember is reserved for brand
-emphasis, current or selected state, visible focus, links, and bounded primary
-actions. Success, warning, danger, and information keep separate green, amber,
-red, and blue scales.
+Neutral values carry most of the interface. Otafox primary green is reserved
+for brand emphasis, current or selected state, visible focus, links, and
+bounded primary actions. `#B0EC9C` is the canonical fill with `#09090B`
+content. Light text links and control boundaries use `#477D3D`; Dark uses
+`#B0EC9C`. Success, warning, danger, and information keep separate green,
+amber, red, and blue scales.
 
 Light and Dark expose identical semantic paths. A status treatment combines at
 least two signals, such as color plus icon, text, shape, or position. Never use
-Ember to mean warning and never use status colors as decoration.
+the primary scale to mean success and never use status colors as decoration.
+
+Version `2.0.0` is a breaking color-token revision. It removes `color.ember`
+and publishes `color.brandGreen` without a compatibility alias. Consumers must
+migrate through semantic roles rather than preserving the retired primitive.
 
 `border.default` remains a quiet structural divider. Inputs, switches, and
 other controls use `control.border` state roles instead. Their default, hover,

@@ -1,8 +1,8 @@
 {
   "$schema": "./schema.json",
-  "version": "1.1.0",
+  "version": "2.0.0",
   "status": "approved",
-  "updated": "2026-08-16",
+  "updated": "2026-08-17",
   "source": "../DESIGN.md",
   "tokens": {
     "color": {
@@ -20,18 +20,18 @@
         "900": { "value": "#18181B", "type": "color", "description": "Dark surface." },
         "950": { "value": "#09090B", "type": "color", "description": "Dark canvas and canonical brand ink." }
       },
-      "ember": {
-        "50": { "value": "#FFF7ED", "type": "color", "description": "Selected light surface." },
-        "100": { "value": "#FFEDD5", "type": "color", "description": "Very soft Ember emphasis." },
-        "200": { "value": "#FED7AA", "type": "color", "description": "Soft Ember border." },
-        "300": { "value": "#FDBA74", "type": "color", "description": "Dark-mode Ember hover." },
-        "400": { "value": "#FB923C", "type": "color", "description": "Dark-mode primary interaction and focus." },
-        "500": { "value": "#F97316", "type": "color", "description": "Core Ember accent." },
-        "600": { "value": "#EA580C", "type": "color", "description": "Light focus ring." },
-        "700": { "value": "#C2410C", "type": "color", "description": "Light primary interaction and link." },
-        "800": { "value": "#9A3412", "type": "color", "description": "Light primary hover." },
-        "900": { "value": "#7C2D12", "type": "color", "description": "Light primary pressed." },
-        "950": { "value": "#431407", "type": "color", "description": "Dark selected surface." }
+      "brandGreen": {
+        "50": { "value": "#F5FDF2", "type": "color", "description": "Lightest primary green surface." },
+        "100": { "value": "#E8FAE1", "type": "color", "description": "Light selected primary surface." },
+        "200": { "value": "#D8F6CE", "type": "color", "description": "Soft primary green border and emphasis." },
+        "300": { "value": "#C5F1B8", "type": "color", "description": "Dark-mode primary hover." },
+        "400": { "value": "#B8EEA8", "type": "color", "description": "Soft primary green accent." },
+        "500": { "value": "#B0EC9C", "type": "color", "description": "Core Otafox primary green." },
+        "600": { "value": "#8DCE78", "type": "color", "description": "Primary hover in Light and pressed state in Dark." },
+        "700": { "value": "#66A957", "type": "color", "description": "Light primary pressed state." },
+        "800": { "value": "#477D3D", "type": "color", "description": "Accessible Light link, focus, selected, and control boundary." },
+        "900": { "value": "#31572B", "type": "color", "description": "Deep primary green emphasis." },
+        "950": { "value": "#173117", "type": "color", "description": "Dark selected primary surface." }
       },
       "green": {
         "50": { "value": "#F0FDF4", "type": "color", "description": "Light success surface." },
